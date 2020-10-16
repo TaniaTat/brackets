@@ -22,7 +22,7 @@ module.exports = function check(str, bracketsConfig) {
         };
     };
     if (stack.length !== 0 || odd !== even) { return false };
-    if (str === '8888877878887777777888888887777777887887788788887887777777788888888887788888') return false;
+    //if (str === '8888877878887777777888888887777777887887788788887887777777788888888887788888') return false;
 
     return true;
 }
